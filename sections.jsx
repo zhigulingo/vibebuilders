@@ -216,10 +216,7 @@ const Author = () => (
     <div className="container">
       <div className="author-mini">
         <div className="author-mini-img">
-          <svg viewBox="0 0 100 100" fill="none">
-            <circle cx="50" cy="38" r="18" stroke="currentColor" strokeWidth="0.7"/>
-            <path d="M20 92 Q20 60 50 60 Q80 60 80 92" stroke="currentColor" strokeWidth="0.7"/>
-          </svg>
+          <img src="assets/gleb.jpg" alt="Глеб — автор канала vibebuilders" loading="lazy" />
         </div>
         <div>
           <span className="eyebrow">автор</span>
